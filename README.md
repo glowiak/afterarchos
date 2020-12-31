@@ -22,3 +22,12 @@ Type following commands as root:
   - sysconf -la https://github.com/glowiak/msprogs.git msprogs
   - sysconf -s msprogs
   - Now you can install for example teams: sysconf -i msprogs teams
+# Changing hostname
+Type as root:
+  - sysconf -ch newhostname
+# Packages, which mainlayer doesn't contains:
+  - X packages
+  - cups packages
+  - sane packages
+  - Microsoft packages
+  - Linux kernel packages (sources may be added to mainlayer)
