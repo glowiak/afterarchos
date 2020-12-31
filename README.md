@@ -17,3 +17,8 @@ NOTE!: This will delete pacman and all arch stuff!!!!! You can do it at your own
 mainlayer layer doesn't contain X packages, so recommended is to install X from pacman before installing afterarchos.
 # No Microsoft apps on mainlayer
 mainlayer doesn't contain Microsoft apps, in orded to install those packages you have to add 'msprogs' layer.
+# Adding msprogs layer
+Type following commands as root:
+  - sysconf -la https://github.com/glowiak/msprogs.git msprogs
+  - sysconf -s msprogs
+  - Now you can install for example teams: sysconf -i msprogs teams
